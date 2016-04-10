@@ -37,7 +37,6 @@ chrome
     id: 'discover',
     title: 'Discover'
   },
-*/
   {
     id: 'visualize',
     title: 'Visualize',
@@ -45,14 +44,18 @@ chrome
       return (String(this.lastUrl).indexOf('/visualize/step/') === 0) ? 'white' : '#656a76';
     }
   },
+*/
   {
     id: 'dashboard',
     title: 'Dashboard'
-  },
+  }
+/*
+  ,
   {
     id: 'settings',
     title: 'Settings'
   }
+*/
 ])
 .setRootController('kibana', function ($scope, $rootScope, courier, config) {
   function setDefaultTimezone() {
