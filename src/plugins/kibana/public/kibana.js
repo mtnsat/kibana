@@ -32,10 +32,12 @@ chrome
   activeIndicatorColor: '#656a76'
 })
 .setTabs([
+/*
   {
     id: 'discover',
     title: 'Discover'
   },
+*/
   {
     id: 'visualize',
     title: 'Visualize',
