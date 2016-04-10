@@ -22,7 +22,7 @@ module.exports = function (kibana) {
 
         autoload: kibana.autoload.require.concat(
 //          'plugins/kibana/discover',
-//          'plugins/kibana/visualize',
+          'plugins/kibana/visualize',
           'plugins/kibana/dashboard',
 //          'plugins/kibana/settings',
 //          'plugins/kibana/settings/sections',

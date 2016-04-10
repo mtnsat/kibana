@@ -1,7 +1,7 @@
-require('plugins/kibana/discover/index');
+//require('plugins/kibana/discover/index');
 require('plugins/kibana/visualize/index');
 require('plugins/kibana/dashboard/index');
-require('plugins/kibana/settings/index');
+//require('plugins/kibana/settings/index');
 require('plugins/kibana/doc/index');
 require('ui/timepicker');
 
@@ -37,6 +37,7 @@ chrome
     id: 'discover',
     title: 'Discover'
   },
+*/
   {
     id: 'visualize',
     title: 'Visualize',
@@ -44,7 +45,6 @@ chrome
       return (String(this.lastUrl).indexOf('/visualize/step/') === 0) ? 'white' : '#656a76';
     }
   },
-*/
   {
     id: 'dashboard',
     title: 'Dashboard'
